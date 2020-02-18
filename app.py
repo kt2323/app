@@ -4,7 +4,6 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 from flask import Flask
 import os
-import cv2
 
 server = Flask(__name__)
 server.secret_key = os.environ.get('secret_key', 'secret')
